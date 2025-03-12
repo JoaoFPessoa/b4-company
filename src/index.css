@@ -82,7 +82,7 @@
 }
 
 @theme {
-  --font-display: "Manrope", "sans-serif";
+  --font-manrope: "Manrope", "sans-serif";
 }
 
 @theme inline {
@@ -131,4 +131,8 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+body {
+  overflow-x: hidden;
 }
