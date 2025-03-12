@@ -13,7 +13,7 @@ export default function ServicesSection() {
     <section id="services" className="py-20 flex justify-center bg-white">
       <div className="container">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl text-[#20B2AA]">
+          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl text-[#005f73] font-manrope">
             Nossos Serviços
           </h2>
           <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -23,32 +23,32 @@ export default function ServicesSection() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <ServiceCard
-            icon={<Users className="h-10 w-10 text-[#20B2AA]" />}
+            icon={<Users className="h-10 w-10 text-[#005f73]" />}
             title="Eventos de Experiência Corporativa"
             description="Criamos experiências significativas para equipes que fortalecem a cultura da empresa e promovem a colaboração."
           />
           <ServiceCard
-            icon={<Calendar className="h-10 w-10 text-[#20B2AA]" />}
+            icon={<Calendar className="h-10 w-10 text-[#005f73]" />}
             title="Happy Hours"
             description="Eventos de networking casuais, mas sofisticados, projetados para aumentar o moral da equipe e construir relacionamentos."
           />
           <ServiceCard
-            icon={<Sparkles className="h-10 w-10 text-[#20B2AA]" />}
+            icon={<Sparkles className="h-10 w-10 text-[#005f73]" />}
             title="Lançamentos de Produtos"
             description="Eventos espetaculares que geram entusiasmo e apresentam seus novos produtos ou serviços."
           />
           <ServiceCard
-            icon={<Lightbulb className="h-10 w-10 text-[#20B2AA]" />}
+            icon={<Lightbulb className="h-10 w-10 text-[#005f73]" />}
             title="Workshops e Sessões"
             description="Workshops interativos e envolventes que inspiram criatividade e inovação."
           />
           <ServiceCard
-            icon={<GraduationCap className="h-10 w-10 text-[#20B2AA]" />}
+            icon={<GraduationCap className="h-10 w-10 text-[#005f73]" />}
             title="Treinamentos Corporativos"
             description="Eventos de desenvolvimento profissional que aprimoram habilidades e conhecimentos em um ambiente estimulante."
           />
           <ServiceCard
-            icon={<PartyPopper className="h-10 w-10 text-[#20B2AA]" />}
+            icon={<PartyPopper className="h-10 w-10 text-[#005f73]" />}
             title="Celebrações de Fim de Ano"
             description="Encontros memoráveis que celebram conquistas e fortalecem os laços da equipe."
           />

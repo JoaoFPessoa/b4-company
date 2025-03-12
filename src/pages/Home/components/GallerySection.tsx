@@ -7,7 +7,7 @@ export default function GallerySection() {
     <section id="gallery" className="py-20 flex justify-center bg-gray-50">
       <div className="container">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl text-[#20B2AA]">
+          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl text-[#005f73] font-manrope">
             Nosso Trabalho
           </h2>
           <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -28,7 +28,9 @@ export default function GallerySection() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
                 <div className="text-white">
-                  <h3 className="font-medium">Evento Corporativo {i}</h3>
+                  <h3 className="font-medium font-manrope">
+                    Evento Corporativo {i}
+                  </h3>
                   <p className="text-sm text-gray-200">Nome do Cliente</p>
                 </div>
               </div>
@@ -38,7 +40,7 @@ export default function GallerySection() {
         <div className="mt-8 text-center">
           <Button
             variant="outline"
-            className="border-[#20B2AA] text-[#20B2AA] hover:bg-[#20B2AA] hover:text-white"
+            className="border-[#005f73] text-[#005f73] hover:bg-[#005f73] hover:text-white"
           >
             Ver Mais Projetos <ChevronRight className="ml-2 h-4 w-4" />
           </Button>

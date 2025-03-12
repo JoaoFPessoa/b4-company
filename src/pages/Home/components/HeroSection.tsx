@@ -4,7 +4,7 @@ import BannerBackground from "@/assets/hero/banner2.png";
 export default function HeroSection() {
   return (
     <section className="relative">
-      <div className="absolute inset-0 bg-gradient-to-r from-[#20B2AA]/90 to-[#20B2AA]/30 z-10" />
+      <div className="absolute inset-0 bg-gradient-to-r from-[#005f73]/90 to-[#005f73]/10  z-10" />
       <div className="relative  h-[760px]">
         <img
           src={BannerBackground}
@@ -24,7 +24,7 @@ export default function HeroSection() {
         <div className="mt-8 flex flex-col sm:flex-row gap-4">
           <Button
             size="lg"
-            className="font-manrope cursor-pointer bg-white text-[#20B2AA] hover:bg-gray-100"
+            className="font-manrope text-white font-semibold bg-gradient-to-r from-[#008B99] to-[#005f73] hover:from-[#007280] hover:to-[#004a5a] transition-all duration-300 ease-in-out shadow-lg hover:shadow-xl cursor-pointer"
           >
             Solicitar Proposta
           </Button>

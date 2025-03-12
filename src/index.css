@@ -85,6 +85,10 @@
   --font-manrope: "Manrope", "sans-serif";
 }
 
+body {
+  font-family: "Manrope", "sans-serif";
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);

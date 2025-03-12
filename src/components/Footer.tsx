@@ -14,7 +14,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <Sparkles className="h-6 w-6 text-[#20B2AA]" />
+              <Sparkles className="h-6 w-6 text-[#005f73]" />
               <span className="text-xl font-bold">B4 Company</span>
             </div>
             <p className="text-gray-400 text-sm">
@@ -26,32 +26,32 @@ export default function Footer() {
             <h3 className="font-medium mb-4">Serviços</h3>
             <ul className="space-y-2 text-gray-400 text-sm">
               <li>
-                <a href="#" className="hover:text-[#20B2AA]">
+                <a href="#" className="hover:text-[#005f73]">
                   Eventos de Experiência Corporativa
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#20B2AA]">
+                <a href="#" className="hover:text-[#005f73]">
                   Happy Hours
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#20B2AA]">
+                <a href="#" className="hover:text-[#005f73]">
                   Lançamentos de Produtos
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#20B2AA]">
+                <a href="#" className="hover:text-[#005f73]">
                   Workshops e Sessões
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#20B2AA]">
+                <a href="#" className="hover:text-[#005f73]">
                   Treinamentos Corporativos
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#20B2AA]">
+                <a href="#" className="hover:text-[#005f73]">
                   Celebrações de Fim de Ano
                 </a>
               </li>
@@ -61,27 +61,27 @@ export default function Footer() {
             <h3 className="font-medium mb-4">Empresa</h3>
             <ul className="space-y-2 text-gray-400 text-sm">
               <li>
-                <a href="#" className="hover:text-[#20B2AA]">
+                <a href="#" className="hover:text-[#005f73]">
                   Sobre Nós
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#20B2AA]">
+                <a href="#" className="hover:text-[#005f73]">
                   Nossa Equipe
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#20B2AA]">
+                <a href="#" className="hover:text-[#005f73]">
                   Carreiras
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#20B2AA]">
+                <a href="#" className="hover:text-[#005f73]">
                   Blog
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#20B2AA]">
+                <a href="#" className="hover:text-[#005f73]">
                   Contato
                 </a>
               </li>
@@ -91,11 +91,11 @@ export default function Footer() {
             <h3 className="font-medium mb-4">Contato</h3>
             <ul className="space-y-2 text-gray-400 text-sm">
               <li className="flex items-center gap-2">
-                <Mail className="h-4 w-4 text-[#20B2AA]" />
+                <Mail className="h-4 w-4 text-[#005f73]" />
                 <span>contato@B4 Company.com.br</span>
               </li>
               <li className="flex items-center gap-2">
-                <Phone className="h-4 w-4 text-[#20B2AA]" />
+                <Phone className="h-4 w-4 text-[#005f73]" />
                 <span>+55 (11) 1234-5678</span>
               </li>
             </ul>
@@ -127,10 +127,10 @@ export default function Footer() {
             reservados.
           </p>
           <div className="flex gap-4 mt-4 md:mt-0">
-            <a href="#" className="text-gray-400 text-sm hover:text-[#20B2AA]">
+            <a href="#" className="text-gray-400 text-sm hover:text-[#005f73]">
               Política de Privacidade
             </a>
-            <a href="#" className="text-gray-400 text-sm hover:text-[#20B2AA]">
+            <a href="#" className="text-gray-400 text-sm hover:text-[#005f73]">
               Termos de Serviço
             </a>
           </div>

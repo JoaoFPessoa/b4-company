@@ -7,15 +7,15 @@ export default function CallToAction() {
   return (
     <section
       id="contact"
-      className="py-20 flex justify-center bg-gradient-to-r from-[#20B2AA] to-[#20B2AA]/30"
+      className="py-20 flex justify-center bg-gradient-to-r from-[#005f73] to-[#005f73]/30"
     >
       <div className="container">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div className="text-white">
-            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
+            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl font-manrope">
               Pronto para Criar Seu Próximo Evento?
             </h2>
-            <p className="mt-4 text-lg opacity-90">
+            <p className="mt-4 text-lg opacity-90 font-manrope">
               Vamos discutir como podemos dar vida à sua visão. Preencha o
               formulário e nossa equipe entrará em contato em até 24 horas.
             </p>
@@ -108,7 +108,7 @@ export default function CallToAction() {
               </div>
               <Button
                 type="submit"
-                className="w-full bg-[#20B2AA] hover:bg-[#1c9e98] text-white"
+                className="w-full bg-[#005f73] hover:bg-[#1c9e98] text-white"
               >
                 Solicitar Proposta
               </Button>

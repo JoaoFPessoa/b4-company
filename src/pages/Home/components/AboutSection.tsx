@@ -9,7 +9,7 @@ export default function AboutSection() {
       <div className="container ">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl text-[#20B2AA]">
+            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl text-[#005f73] font-manrope">
               Sobre a B4 Company
             </h2>
             <p className="mt-4 text-lg text-muted-foreground">
@@ -26,25 +26,25 @@ export default function AboutSection() {
             </p>
             <div className="mt-8 grid grid-cols-2 gap-4">
               <div className="flex flex-col">
-                <span className="text-3xl font-bold text-[#20B2AA]">250+</span>
+                <span className="text-3xl font-bold text-[#005f73]">250+</span>
                 <span className="text-sm text-muted-foreground">
                   Eventos Organizados
                 </span>
               </div>
               <div className="flex flex-col">
-                <span className="text-3xl font-bold text-[#20B2AA]">98%</span>
+                <span className="text-3xl font-bold text-[#005f73]">98%</span>
                 <span className="text-sm text-muted-foreground">
                   Satisfação dos Clientes
                 </span>
               </div>
               <div className="flex flex-col">
-                <span className="text-3xl font-bold text-[#20B2AA]">15+</span>
+                <span className="text-3xl font-bold text-[#005f73]">15+</span>
                 <span className="text-sm text-muted-foreground">
                   Anos de Experiência
                 </span>
               </div>
               <div className="flex flex-col">
-                <span className="text-3xl font-bold text-[#20B2AA]">100+</span>
+                <span className="text-3xl font-bold text-[#005f73]">100+</span>
                 <span className="text-sm text-muted-foreground">
                   Clientes Corporativos
                 </span>

@@ -5,7 +5,7 @@ export default function TestimonialsSection() {
     <section id="testimonials" className="py-20  flex justify-center bg-white">
       <div className="container">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl text-[#20B2AA]">
+          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl text-[#005f73] font-manrope">
             O Que Nossos Clientes Dizem
           </h2>
           <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">

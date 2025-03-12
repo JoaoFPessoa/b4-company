@@ -21,7 +21,7 @@ export default function TestimonialCard({
           />
         </div>
         <div>
-          <h4 className="font-medium">{author}</h4>
+          <h4 className="font-medium font-manrope">{author}</h4>
           <p className="text-sm text-muted-foreground">{position}</p>
         </div>
       </div>
