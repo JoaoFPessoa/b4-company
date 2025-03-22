@@ -21,7 +21,7 @@ export default function ServicesSection() {
             e completas, adaptadas às necessidades únicas de cada cliente.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid px-3 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <ServiceCard
             icon={<Users className="h-10 w-10 text-[#005f73]" />}
             title="Eventos de Experiência Corporativa"
@@ -29,7 +29,7 @@ export default function ServicesSection() {
           />
           <ServiceCard
             icon={<Calendar className="h-10 w-10 text-[#005f73]" />}
-            title="Happy Hours"
+            title="Happy Hour Coorporativo"
             description="Eventos de networking casuais, mas sofisticados, projetados para aumentar o moral da equipe e construir relacionamentos."
           />
           <ServiceCard

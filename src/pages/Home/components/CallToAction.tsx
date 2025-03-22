@@ -7,7 +7,7 @@ export default function CallToAction() {
   return (
     <section
       id="contact"
-      className="py-20 flex justify-center bg-gradient-to-r from-[#005f73] to-[#005f73]/30"
+      className="py-20 flex justify-center px-3 bg-gradient-to-r from-[#005f73] to-[#005f73]/80"
     >
       <div className="container">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">

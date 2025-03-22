@@ -28,16 +28,16 @@ export default function HeroSection() {
         <div className="mt-8 flex flex-col sm:flex-row gap-4">
           <Button
             size="lg"
-            className="font-manrope text-white font-semibold bg-gradient-to-r cursor-pointer from-[#00A6B6] to-[#007280] hover:from-[#0094A6] hover:to-[#005a63] transition-all duration-300 ease-in-out shadow-lg hover:shadow-xl"
+            variant="outline"
+            className="font-manrope border-white text-black cursor-pointer hover:bg-white/80 transition-all duration-300"
           >
-            Solicitar Proposta
+            Conheça Nosso Trabalho
           </Button>
           <Button
             size="lg"
-            variant="outline"
-            className="font-manrope border-white text-black cursor-pointer hover:bg-white/20 transition-all duration-300"
+            className="font-manrope text-white font-semibold bg-gradient-to-r cursor-pointer from-[#00A6B6] to-[#007280] hover:from-[#0094A6] hover:to-[#005a63] transition-all duration-300 ease-in-out shadow-lg hover:shadow-xl"
           >
-            Conheça Nosso Trabalho
+            Solicitar Proposta
           </Button>
         </div>
       </div>

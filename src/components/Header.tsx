@@ -47,12 +47,14 @@ export default function Header() {
           </a>
         </nav>
 
-        <Button
-          size="lg"
-          className="font-manrope text-white font-semibold bg-gradient-to-r from-[#008B99] to-[#005f73] hover:from-[#007280] hover:to-[#004a5a] transition-all duration-300 ease-in-out shadow-lg hover:shadow-xl cursor-pointer"
+        <a
+          href="https://wa.me/5511930001678"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-manrope text-white font-semibold  p-3 rounded-md bg-gradient-to-r from-[#008B99] to-[#005f73] hover:from-[#007280] hover:to-[#004a5a] transition-all duration-300 ease-in-out shadow-lg hover:shadow-xl cursor-pointer"
         >
-          Solicitar Proposta
-        </Button>
+          Fale conosco
+        </a>
 
         {/* Mobile Menu Button */}
         <button className="md:hidden" onClick={() => setIsOpen(!isOpen)}>

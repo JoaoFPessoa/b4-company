@@ -15,7 +15,7 @@ export default function GallerySection() {
             nossas capacidades.
           </p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 px-3 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {[1, 2, 3, 4, 5, 6].map((i) => (
             <div
               key={i}
@@ -26,7 +26,7 @@ export default function GallerySection() {
                 alt={`Event gallery image ${i}`}
                 className="object-cover transition-transform duration-300 group-hover:scale-110"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent md:opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
                 <div className="text-white">
                   <h3 className="font-medium font-manrope">
                     Evento Corporativo {i}

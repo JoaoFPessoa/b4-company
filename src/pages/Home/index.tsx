@@ -7,10 +7,10 @@ import TestimonialsSection from "./components/TestimonialsSection";
 
 function Home() {
   return (
-    <div className="flex min-h-screen  flex-col ">
+    <div className="flex min-h-screen   flex-col ">
       <HeroSection />
-      <ServicesSection />
       <AboutSection />
+      <ServicesSection />
       <TestimonialsSection />
       <GallerySection />
       <CallToAction />
